@@ -11,7 +11,7 @@ Pod::Spec.new do |spec|
   spec.platform           = :ios
   spec.frameworks         = "UIKit", "AudioToolbox", "Accelerate", "CoreGraphics"
   spec.ios.deployment_target = '6.0'
-  spec.source             = { :git => "/Users/biran/code/contrib/SCLAlertView" }
+  spec.source             = { :git => "https://github.com/brrr/SCLAlertView.git, :tag => spec.version.to_s" }
   spec.source_files       = "SCLAlertView/*"
   spec.requires_arc       = true
 end
